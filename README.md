@@ -16,6 +16,19 @@ It is NOT an express, koa nor react starter kit... It is a *javascript library s
 * edit `README.md`
 * edit `src/index.js` and create corresponding tests in `test/`... Create all the files/directories you need **inside `src/`**. Note that if you rename or delete `src/index.js` file, you will have to adjust `main` property in `package.json`
 * `npm build`: this will build your code in `dist/` directory (UMD)
+* ... commit your stuff...
+* when ready to release a new version:
+```
+// check `npm version` doc: https://docs.npmjs.com/cli/version
+npm version [major | minor | patch] -m 'your commit message'
+//
+```
+
+This will:
+* update `package.json` version
+* commit the `package.json` change
+* create the corresponding git tag (vM.m.p)
+* (via `npm postversion` script) push current branch (ususally develop or master) and the created git tag
 
 ## Commands
 

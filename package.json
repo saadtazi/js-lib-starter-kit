@@ -11,6 +11,7 @@
     "cov": "nyc --reporter=html --reporter=text npm test",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint .",
+    "postversion": "git push && git push --tags",
     "test": "mocha",
     "test:dev": "npm test -- --watch"
   },
