@@ -1,6 +1,6 @@
 {
   "name": "lib-starter-kit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "utility functions that poll until a condition is met",
   "main": "dist/index.js",
   "scripts": {
