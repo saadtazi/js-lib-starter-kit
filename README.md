@@ -20,8 +20,7 @@ It is NOT an express, koa nor react starter kit... It is a *javascript library s
 * when ready to release a new version:
 ```
 // check `npm version` doc: https://docs.npmjs.com/cli/version
-npm version [major | minor | patch] -m 'your commit message'
-//
+npm version [major | minor | patch]
 ```
 
 This will:
