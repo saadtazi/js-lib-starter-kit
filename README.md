@@ -28,7 +28,7 @@ This will:
 * update `package.json` version
 * commit the `package.json` change
 * create the corresponding git tag (vM.m.p)
-* (via `npm postversion` script) push current branch (ususally develop or master) and the created git tag
+* (via `npm postversion` script) push current branch (usually master) and the created git tag
 
 ## Commands
 
@@ -62,7 +62,6 @@ require(..., 'path/to/dist/my-lib', ... function (...) {...});
 ## [Travis-CI](https://travis-ci.org/) Integration & [Coveralls.io](https://coveralls.io)
 
 * Make sure you have the proper command(s) in .travis.yml
-*
 
 ## GIT Integration
 
